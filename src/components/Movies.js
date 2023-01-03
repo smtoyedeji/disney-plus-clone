@@ -7,16 +7,16 @@ function Movies() {
         <h4>Recommended for You</h4>
         <Content>
             <Wrap>
-                <img src="placeholder.jpg" alt=""/>
+                <img src="https://source.unsplash.com/random/?starwars" alt=""/>
             </Wrap>
             <Wrap>
-                <img src="placeholder.jpg" alt=""/>
+                <img src="https://source.unsplash.com/random/?marvel" alt=""/>
             </Wrap>
             <Wrap>
-                <img src="placeholder.jpg" alt=""/>
+                <img src="https://source.unsplash.com/random/?pixar" alt=""/>
             </Wrap>
             <Wrap>
-                <img src="placeholder.jpg" alt=""/>
+                <img src="https://source.unsplash.com/random/?disney" alt=""/>
             </Wrap>
         </Content>
     </Container>
@@ -26,7 +26,7 @@ function Movies() {
 export default Movies
 
 const Container = styled.div`
-
+    margin-bottom: 25px;
 `
 const Content = styled.div`
     display: grid;
